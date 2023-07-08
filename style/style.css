@@ -7,11 +7,17 @@
     font-family: 'Varela Round', sans-serif;
 }
 
+/* text-fast Sorbus color*/
+.text-fast{
+    color: #FD6E0A;
+
+}
+
 
 /* common website button and color */
 .btn{
     border: none;
-    padding: 18px;
+    padding: 7px 25px;
     font-size: 20px;
     font-weight: 700;
     border-radius: 5px;
@@ -20,6 +26,10 @@
 
 
     
+}
+
+.btn:hover{
+    background-color: rgb(0, 0, 0);
 }
     
 /* nav title */
