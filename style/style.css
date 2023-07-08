@@ -1,0 +1,51 @@
+/* common font style */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+/* common website button and color */
+.btn{
+    border: none;
+    padding: 18px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: #FFF;
+
+
+    
+}
+    
+/* nav title */
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+/* nav style */
+nav {
+    display: flex;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav  li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav  a{
+    text-decoration: none;
+    color: #757575;
+    
+
+}
