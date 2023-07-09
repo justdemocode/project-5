@@ -49,7 +49,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 20px 150px 50px 150px;
-    border: 2px solid #3C5AA6; 
+     
 
 }
 
@@ -79,6 +79,7 @@ nav  a{
     height: 100vh;
 }
 
+
 .banner{
     padding: 50px 150px 0px 150px;
     display: flex;
@@ -103,3 +104,21 @@ nav  a{
     color: white;
 }
 
+.banner-welcome{
+    color:#474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.banner-title{
+    color:#181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.discretion{
+    text-align: justify;
+   text-justify: inter-word;
+}
