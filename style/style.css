@@ -49,6 +49,7 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 10px 50px 10px 100px; 
+
 }
 
 nav > ul{
@@ -70,3 +71,30 @@ nav  a{
     text-decoration: none;
     color: #FFCB05;
 }
+
+/* header related style */
+.header{
+    background-color: #FFF8F3;
+    height: 100vh;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+
+.btn-to{
+    border: none;
+    padding: 8px 25px;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    color: #757575; 
+}
+
+.btn-to:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
