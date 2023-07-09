@@ -93,7 +93,7 @@ nav  a{
     border: none;
     padding: 8px 25px;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 700px;
     border-radius: 5px;
     background-color: #f1f1f1;
     color: #757575; 
@@ -107,15 +107,16 @@ nav  a{
 .banner-welcome{
     color:#474747;
     font-size: 45px;
-    font-weight: 600;
+    font-weight: 600px;
     margin-bottom: 15px;
 }
 
 .banner-title{
     color:#181818;
     font-size: 85px;
-    font-weight: 700;
+    font-weight: 700px;
     margin-bottom: 10px;
+    text-shadow: -9px -7px 17px grey;
 }
 
 .discretion{
@@ -124,11 +125,16 @@ nav  a{
     margin-bottom: 25px;
     color: #757575;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 30px;
 }
 
 /* main section style */
+main{
+    max-width: 1425px;
+    margin: 0px auto; 
+}
+
 .section-title{
     color: #181818;
     text-align: center;
@@ -139,8 +145,8 @@ nav  a{
 
 /* about section style */
 .about{
-    padding: 100px;
-    margin: 130px;
+    padding: 130px;
+    margin: 80px 110px 50px 110px;
     text-align: justify;
     text-justify: inter-word;
     background-color: #FFF8F3;
@@ -150,3 +156,61 @@ nav  a{
     line-height: 30px;
     
 }
+
+.table-data{
+    color: #757575;
+    text-align: center;
+    text-justify: inter-word;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 40px;
+    
+    
+}
+
+th, td {
+    padding-left: 62px;
+
+  }
+
+  /* what i do section style */
+
+  .what-i-do{
+    padding: 0px 130px;
+    margin: 0px 110px 50px 110px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  /* card section style */
+.skills-con{
+    display: flex;
+    margin: 0px 110px 50px 110px;
+    gap: 24px;
+    
+}
+
+.skills-title{
+    margin: 10px 0px;
+}
+
+.skills{
+    padding: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+    background-color: #FFF8F3;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    box-shadow: -5px -7px 17px gray;
+    border-radius: 5px;
+}
+
+
+
