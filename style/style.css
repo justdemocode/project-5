@@ -5,12 +5,13 @@
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Varela Round', sans-serif;
-    cursor: url("../portfolio-resources/images/icons/react.png"),auto; 
+    cursor: url("https://cdn.custom-cursor.com/db/pointer/32/Pokemon_Pikachu_Pointer.png"),auto; 
 }
 
 /* text-fast Sorbus color*/
 .text-fast{
     color: #FD6E0A;
+    font-family: 'Pokemon Solid', sans-serif;
 
 }
 
@@ -19,19 +20,16 @@
 .btn{
     border: none;
     padding: 8px 25px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
     border-radius: 5px;
-    background-color: #FD6E0A;
-    color: #FFF;
-    
-
-
-    
+    background-color: #FFCB05;
+    color: #757575; 
 }
 
 .btn:hover{
     background-color: rgb(0, 0, 0);
+    color: white;
 }
     
 /* nav title */
@@ -39,7 +37,11 @@
     color: #181818;
     font-size: 45px;
     font-weight: 800;
-      
+    font-family: 'Pokemon Solid', sans-serif;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color:#3C5AA6;
+    color: #FFCB05;
+    
 }
 
 /* nav style */
@@ -59,10 +61,12 @@ nav  li{
     margin-right: 50px;
 }
 
+a:hover{
+    color: rgb(0, 0, 0);
+}
+
 
 nav  a{
     text-decoration: none;
-    color: #757575;
-    
-
+    color: #FFCB05;
 }
