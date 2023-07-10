@@ -218,10 +218,28 @@ th, td {
     color: #474747;
     font-size: 30px;
     font-weight: 700px;
+    margin-bottom: 20px;
 }
 
 .resume-container{
     display: flex;
+    gap: 50px;
+    margin: 0px 110px 50px 110px;
+
+}
+
+.resume-item-info{
+    margin: 10px 0px;
+}
+
+.resume-item-about{
+    color:  #757575;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 28px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 15px;
 }
 
 
