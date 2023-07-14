@@ -140,7 +140,7 @@ main{
     text-align: center;
     font-size: 40px;
     font-weight: 700px;
-    margin-bottom: 50px;
+    margin: 80px 0px;
 }
 
 /* about section style */
@@ -178,7 +178,7 @@ th, td {
 
   .what-i-do{
     padding: 0px 130px;
-    margin: 0px 110px 60px 110px;
+    margin: 0px 110px 80px 110px;
     text-align: justify;
     text-justify: inter-word;
     color: #757575;
@@ -241,6 +241,104 @@ th, td {
     text-justify: inter-word;
     margin-bottom: 15px;
 }
+
+.btn-three{
+    border: none;
+    padding: 8px 25px;
+    font-size: 25px;
+    font-weight: 700px;
+    border-radius: 5px;
+    background-color: #FFCB05;
+    color: #757575;
+    
+}
+
+.btn-three:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.download-cv{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* footer section style */
+footer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 50px 180px 50px 180px;
+}
+
+.footer-column {
+    width: 50%;
+
+}
+
+.section-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700px;
+    margin-bottom: 60px; 
+}
+
+.section-description{
+    color:  #757575;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 28px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 15px;
+}
+
+.social-icon img{
+    width: 44px;
+    height: 44px;
+    margin-right: 12px;
+    margin-top: 40px;
+    
+}
+
+.social-icon img:hover{
+    background-color: rgb(0, 0, 0);
+
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
+
+.btn-fore{
+    border: none;
+    padding: 8px 25px;
+    font-size: 25px;
+    font-weight: 700px;
+    border-radius: 5px;
+    background-color: #FFCB05;
+    color: #757575;
+    
+}
+
+.btn-fore:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+
+
+
 
 
 
